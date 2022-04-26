@@ -3668,8 +3668,8 @@ input, select, textarea {
 		min-height: 100vh;
 		opacity: 1;
 	}
-
-	#historical_results{
+/* Historical Results Table */
+	#historical_results table {
 		font-weight: 400;
 		text-align: center;
 	}

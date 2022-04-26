@@ -3668,3 +3668,29 @@ input, select, textarea {
 		min-height: 100vh;
 		opacity: 1;
 	}
+
+	#historical_results{
+		font-weight: 400;
+		text-align: center;
+	}
+	#historical_results caption{
+		text-align: left;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding-bottom: 0.5em;
+	}
+	#historical_results th{
+		background-color: #2b5a8b;
+		color: #eaeaea;
+		vertical-align:middle;
+		padding-top: 0.5em;
+	}
+	#historical_results td.negative{
+		color: #bd2323;
+	}
+	#historical_results td.positive{
+		color: #659e65;
+	}
+	#historical_results td.acr{
+		text-align:right;
+	}
